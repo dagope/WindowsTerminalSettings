@@ -7,7 +7,7 @@ The file settings.json content my configuration using the terminals:
 - [Ubuntu Shell (Windows Subsystem for Linux)] (https://ubuntu.com/wsl)
 
 
-![sample.jgp](sample.jgp)
+![sample.jpg](sample.jpg)
 
 
 More info about Windows terminal [here](https://docs.microsoft.com/en-us/windows/terminal/)
