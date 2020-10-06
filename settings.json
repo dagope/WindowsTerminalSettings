@@ -1,0 +1,160 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+
+  "defaultProfile": "{00000000-0000-0000-0000-000000000001}",
+
+  "profiles": [
+    {
+      // Make changes here to the powershell.exe profile
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "name": "Windows PowerShell",
+      "commandline": "powershell.exe",
+      "hidden": false,
+      "startingDirectory": "c:/",
+      "backgroundImage": "D:/David/WindowsTerminalSettings/images/powerShell.png",
+      "backgroundImageOpacity": 0.3,
+      "backgroundImageAlignment": "bottomRight",
+      "backgroundImageStretchMode": "none"
+    },
+    {
+      // Make changes here to the cmd.exe profile
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "name": "cmd",
+      "commandline": "cmd.exe",
+      "hidden": false,
+      "startingDirectory": "c:/"
+    },
+    {
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "hidden": false,
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure",
+      "fontFace": "Consolas",
+      "fontSize": 20,
+      "acrylicOpacity": 0.85,
+      "useAcrylic": true,
+      "closeOnExit": false,
+      "padding": "0, 0, 0, 0",
+      "colorscheme": "Ubuntu",
+      "historySize": 9001,
+      "snapOnInput": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "startingDirectory": "c:/",
+      "backgroundImage": "D:/David/WindowsTerminalSettings/images/azureCloudShell.png",
+      "backgroundImageOpacity": 0.3,
+      "backgroundImageAlignment": "bottomRight",
+      "backgroundImageStretchMode": "none"
+    },
+    {
+      "guid": "{00000000-0000-0000-0000-000000012345}",
+      "name": "Git Bash",
+      "hidden": false,
+      "acrylicOpacity": 0.75,
+      "background": "#000000",
+      "closeOnExit": true,
+      "colorScheme": "GitBash",
+      "commandline": "\"%PROGRAMFILES%\\git\\bin\\bash.exe\" --login -i -l",
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Consolas",
+      "fontSize": 10,
+      "historySize": 9001,
+      "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "useAcrylic": true,
+      "startingDirectory": "c:/",
+      "backgroundImage": "D:/David/WindowsTerminalSettings/images/gitbash.png",
+      "backgroundImageOpacity": 0.3,
+      "backgroundImageAlignment": "bottomRight",
+      "backgroundImageStretchMode": "none"
+    },
+    {
+      "guid": "{00000000-0000-0000-0000-000000000001}",
+      "name": "Cmder",
+      "commandline": "cmd.exe /k C:/cmder/vendor/init.bat",
+      "icon": "C:/cmder/icons/cmder.ico",
+      "hidden": false,
+      "closeOnExit": true,
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "historySize": 9001,
+      "padding": "8, 8, 8, 8",
+      "snapOnInput": true,
+      "startingDirectory": "c:/",
+      "backgroundImage": "D:/David/WindowsTerminalSettings/images/dagopebloglarge.png",
+      "backgroundImageOpacity": 0.4,
+      "backgroundImageAlignment": "bottomRight",
+      "backgroundImageStretchMode": "none"
+    },
+    {
+      "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+      "hidden": false,
+      "name": "Ubuntu",
+      "source": "Windows.Terminal.Wsl",
+      "backgroundImage": "D:/David/WindowsTerminalSettings/images/Ubuntu-Logo.png",
+      "backgroundImageOpacity": 0.3,
+      "backgroundImageAlignment": "bottomRight",
+      "backgroundImageStretchMode": "none"
+    }
+  ],
+
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+      "name": "GitBash",
+      "background": "#000000",
+      "black": "#0C0C0C",
+      "blue": "#6060ff",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "cyan": "#3A96DD",
+      "foreground": "#bfbfbf",
+      "green": "#00a400",
+      "purple": "#bf00bf",
+      "red": "#bf0000",
+      "white": "#ffffff",
+      "yellow": "#bfbf00",
+      "grey": "#bfbfbf"
+    },
+    {
+      "name": "Ubuntu",
+      "foreground": "#EEEEEC",
+      "background": "#2C001E",
+      "colors": [
+        "#EEEEEC",
+        "#16C60C",
+        "#729FCF",
+        "#B58900",
+        "#268BD2",
+        "#D33682",
+        "#2AA198",
+        "#EEE8D5",
+        "#002B36",
+        "#CB4B16",
+        "#586E75",
+        "#657B83",
+        "#839496",
+        "#6C71C4",
+        "#93A1A1",
+        "#FDF6E3"
+      ]
+    }
+
+  ],
+
+  // Add any keybinding overrides to this array.
+  // To unbind a default keybinding, set the command to "unbound"
+  "keybindings": []
+}
