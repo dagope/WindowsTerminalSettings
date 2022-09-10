@@ -26,7 +26,7 @@
       "commandline": "powershell.exe",
       "hidden": false,
       "startingDirectory": "c:/",
-      "backgroundImage": "D:/David/WindowsTerminalSettings/images/powerShell.png",
+      "backgroundImage": "c:/projects/WindowsTerminalSettings/images/powerShell.png",
       "backgroundImageOpacity": 0.3,
       "backgroundImageAlignment": "bottomRight",
       "backgroundImageStretchMode": "none"
@@ -56,7 +56,7 @@
       "cursorColor": "#FFFFFF",
       "cursorShape": "bar",
       "startingDirectory": "c:/",
-      "backgroundImage": "D:/David/WindowsTerminalSettings/images/azureCloudShell.png",
+      "backgroundImage": "c:/projects/WindowsTerminalSettings/images/azureCloudShell.png",
       "backgroundImageOpacity": 0.3,
       "backgroundImageAlignment": "bottomRight",
       "backgroundImageStretchMode": "none"
@@ -80,7 +80,7 @@
       "snapOnInput": true,
       "useAcrylic": true,
       "startingDirectory": "c:/",
-      "backgroundImage": "D:/David/WindowsTerminalSettings/images/gitbash.png",
+      "backgroundImage": "c:/projects/WindowsTerminalSettings/images/gitbash.png",
       "backgroundImageOpacity": 0.3,
       "backgroundImageAlignment": "bottomRight",
       "backgroundImageStretchMode": "none"
@@ -98,7 +98,7 @@
       "padding": "8, 8, 8, 8",
       "snapOnInput": true,
       "startingDirectory": "c:/",
-      "backgroundImage": "D:/David/WindowsTerminalSettings/images/dagopebloglarge.png",
+      "backgroundImage": "c:/projects/WindowsTerminalSettings/images/dagopebloglarge.png",
       "backgroundImageOpacity": 0.4,
       "backgroundImageAlignment": "bottomRight",
       "backgroundImageStretchMode": "none"
@@ -108,7 +108,7 @@
       "hidden": false,
       "name": "Ubuntu",
       "source": "Windows.Terminal.Wsl",
-      "backgroundImage": "D:/David/WindowsTerminalSettings/images/Ubuntu-Logo.png",
+      "backgroundImage": "c:/projects/WindowsTerminalSettings/images/Ubuntu-Logo.png",
       "backgroundImageOpacity": 0.3,
       "backgroundImageAlignment": "bottomRight",
       "backgroundImageStretchMode": "none"
